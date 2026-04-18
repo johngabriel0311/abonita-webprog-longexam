@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-family-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-family-display: "DM Serif Display", ui-serif, Georgia, serif;
+}
+
+@layer base {
+  body {
+    @apply bg-zinc-100 text-zinc-900 antialiased;
+    font-family: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  }
+
+  #root {
+    @apply min-h-screen;
+  }
+
+  h1,
+  h2 {
+    font-family: "DM Serif Display", ui-serif, Georgia, serif;
+  }
+}
